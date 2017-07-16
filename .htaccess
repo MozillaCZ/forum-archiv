@@ -18,7 +18,7 @@
 # CSP
 ###
 <IfModule mod_headers.c>
-    Header set Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self'; font-src https://www.mozilla.org; frame-ancestors 'none'"
+    Header set Content-Security-Policy "default-src 'none'; script-src 'self' https://cdnjs.cloudflare.com https://www.mozilla.org https://www.google-analytics.com; style-src 'self'; img-src 'self' https://www.google-analytics.com; font-src https://www.mozilla.org; frame-ancestors 'none'"
     Header set X-Frame-Options "DENY"
     Header set X-Content-Type-Options "nosniff"
     Header set X-XSS-Protection "1; mode=block"
