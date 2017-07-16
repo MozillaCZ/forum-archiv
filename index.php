@@ -52,6 +52,7 @@ $web_archive_link='https://web.archive.org/web/https://forum.mozilla.cz'.$reques
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/infobar.js"></script>
+    <script src="js/google-analytics.js"></script>
 </body>
 
 </html>
