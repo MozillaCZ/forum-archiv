@@ -20,6 +20,15 @@ $web_archive_link='https://web.archive.org/web/https://forum.mozilla.cz'.$reques
 </head>
 
 <body>
+
+    <div id="mozilla-infobar" class="mozilla-infobar infobar-hidden" role="dialog" aria-hidden="true" data-infobar="update">
+        <p></p>
+        <ul>
+            <li><button class="btn-accept button green" type="button"></button></li>
+            <li><button class="btn-cancel" type="button"></button></li>
+        </ul>
+    </div>
+
     <div id="wrap">
         <div id="tabzilla">
             <a href="https://www.mozilla.cz/">Mozilla.cz</a>
@@ -40,6 +49,9 @@ $web_archive_link='https://web.archive.org/web/https://forum.mozilla.cz'.$reques
     <footer>
         <p>Staré fórum případně naleznete v archivu <a href="<?php echo $web_archive_link; ?>">web.archive.org</a>. Jeho obsah už je ale zastaralý.</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/infobar.js"></script>
 </body>
 
 </html>
