@@ -1,0 +1,29 @@
+{
+  "name": "Fórum Mozilla.cz",
+  "description": "Podpora Firefoxu a produktů Mozilla v češtině",
+  "repository": {
+    "url": "https://github.com/MozillaCZ/forum-mozilla-cz",
+    "license": ""
+  },
+  "participate": {
+    "docs": "https://github.com/MozillaCZ/forum-mozilla-cz",
+    "irc": "irc://irc.mozilla.org/#l10n",
+    "irc-contacts": [
+      "MikkCZ"
+    ]
+  },
+  "bugs": {
+    "list": "https://github.com/MozillaCZ/forum-mozilla-cz/issues",
+    "report": "https://github.com/MozillaCZ/forum-mozilla-cz/issues/new"
+  },
+  "urls": {
+    "prod": "https://forum.mozilla.cz/"
+  },
+  "keywords": [
+    "Mozilla",
+    "PHP",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ]
+}
