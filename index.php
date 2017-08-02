@@ -50,8 +50,7 @@ $web_archive_link='https://web.archive.org/web/https://forum.mozilla.cz'.$reques
         <p>Staré fórum případně naleznete v archivu <a href="<?php echo $web_archive_link; ?>">web.archive.org</a>. Jeho obsah už je ale zastaralý.</p>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="js/infobar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js" integrity="sha256-ihAoc6M/JPfrIiIeayPE9xjin4UWjsx2mjW/rtmxLM4=" crossorigin="anonymous"></script>    <script src="js/infobar.js"></script>
     <script src="js/google-analytics.js"></script>
 </body>
 
